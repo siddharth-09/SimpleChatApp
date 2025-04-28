@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/socket", "destination": "/api/socket" }
+    ]
+  }
+  
