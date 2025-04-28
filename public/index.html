@@ -23,9 +23,7 @@
     </form>
     <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
     <script>
-      const socket = io({
-        path: '/api/socket/io'  // <<< Add this line
-      });
+       const socket = io('/socket');
     
       const form = document.getElementById('form');
       const input = document.getElementById('input');
